@@ -1,16 +1,14 @@
 ﻿<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
   <title>Lanchonete do Coral 55</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <!-- substitua os elementos não semânticos por elementos semânticos -->
   <div id="recipiente">
     <div id="cabecalho">
       <h1>Lanchonete do Coral 55</h1>
-      <h2>O melhor açaí marítimo da região</h2>
+      <h2>O melhor <span id="acai">açaí</span> marítimo da região</h2>
     </div>
     <div id="conteudo">
       <div id="lateral">
@@ -22,23 +20,19 @@
       </div>
       <div id="cardapio">
         <h3>Salgados</h3>
-        <!--
-          encontre uma forma para dispor os itens do cardápio com seus
-          nomes à esquerda e os preços à direita
-        -->
-        Pão de queijo de égua marinha $ 0,99
-        Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49
+        <span class="descricao">Pão de queijo de égua marinha</span><span class="preco"> $ 0,99</span>
+        <span class="descricao">Hamburguer de microinsetos com salada de algas ou de musgo</span><span class="preco"> $ 2,49</span>
         <h3>Pratos</h3>
-        Açaí do manguezal 500ml $ 4,99
-        Açaí marítimo (assinatura) 500ml $ 6,99
-        Algas verdes fritas $ 7,49
-        Plâncton ao molho de maracujá $ 12,49
-        Plâncton do pacífico (importado) marinado $ 19,99
+        <span class="descricao">Açaí do manguezal 500ml</span><span class="preco"> $ 4,99</span>
+        <span class="descricao">Açaí marítimo (assinatura) 500ml</span><span class="preco"> $ 6,99</span>
+        <span class="descricao">Algas verdes fritas</span><span class="preco"> $ 7,49</span>
+        <span class="descricao">Plâncton ao molho de maracujá</span><span class="preco"> $ 12,49</span>
+        <span class="descricao">Plâncton do pacífico (importado) marinado</span><span class="preco"> $ 19,99</span>
         <h3>Bebes</h3>
-        Água temperada (cortesia)
-        Água doce importada (copo) $ 29,49
-        Coquetel de algas (alcoólico) $ 8,99
-        Coquetel de algas (kids) $ 5,49
+        <span class="descricao">Água temperada (cortesia)</span>
+        <span class="descricao">Água doce importada (copo)</span><span class="preco"> $ 29,49</span>
+        <span class="descricao">Coquetel de algas (alcoólico)</span><span class="preco"> $ 8,99</span>
+        <span class="descricao">Coquetel de algas (kids)</span><span class="preco"> $ 5,49</span>
       </div>
     </div>
     <div id="rodape">
