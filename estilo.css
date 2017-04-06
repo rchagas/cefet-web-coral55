@@ -10,7 +10,7 @@ main{
    padding-top: 10px;
    padding-bottom: 46px;
    width: 800px;
-   background: linear-gradient(to bottom, #f6f1b2, #4599b2 70%);
+   background: linear-gradient(to bottom, #f6f1b2 10%, #4599b2 70%);
 }
 #cardapio{
    font-family: 'Verdana', 'Arial', sans-serif;
