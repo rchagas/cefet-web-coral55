@@ -1,57 +1,83 @@
-@import "fonts/stylesheet.css";
+/* Importa o arquivo CSS que importa a fonte Ravie */
+@import "fonts/ravie.css";
+
 body{
-	margin: 0;
+   margin: 0;
 }
-#recipiente{
-	position: relative; 
-	width: 800px;
-	margin: 0 auto;
-	padding-top: 10px;
-	padding-bottom: 35px;
-	background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+main{
+   position: relative;
+   margin: 0 auto;
+   padding-top: 10px;
+   padding-bottom: 35px;
+   width: 800px;
+   background: linear-gradient(to bottom, #f6f1b2, #4599b2 70%);
+}
+#cardapio{
+   font-family: 'Verdana', 'Arial', sans-serif;
+   box-sizing: border-box;
+   border: 1px;
+   border-style: solid;
+   border-color: #aac0ae;
+   width: 646px;
+   margin-left: 154px;
+   padding: 0px 15px 40px 15px;
+   background-color: Rgba(255,255,255,0.2);
+   line-height: 2em;
+}
+header{
+   text-align: right;
+   margin-right: 70px;
+}
+header h1{
+   font-size: 36px;
+   font-family: Ravie;
+   color: #e90c0c;
+}
+header h2{
+   font-weight: normal;
+   font-size: 24px;
+   font-family: 'Trebuchet MS', 'sans-serif';
+   color: #333;
+}
+header .destaque{
+   color:#d027aa;
+}
+#cardapio h3{
+   font-weight: bold;
+   color: #333;
+   font-size: 18px;
 }
 
-#cabecalho{
-	text-align: right;
-	margin-right: 70px;
+.descricao{
+   text-align: left;
 }
-
-#cabecalho h1{
-	font-size: 36px;
-	font-family: Ravie;
-	color: #e90c0c;
+.preco{
+   float: right;
 }
-
-#cabecalho h2{
-	font-weight: lighter;
-	font-size: 24px;
-	font-family: Trebuchet MS;
-	color: #333;
+footer{
+   margin: 0;
+   position:relative;
+   top: 46px;
+   right: 15px;
+   padding-bottom: 25px;
+   text-align: right;
 }
-
-#acai{
-	color: #d027aa;
-}
-
 img[src*="siri"]{
 	position: absolute;	
 	left: -10px;
 	top: 7px;
-	}
-
+}
 img[src*="peixe"]{
 	text-align: left;
 	position: absolute;
 	left: -44px;
 	bottom: 0px;
 }
-
 img[src*="bolhas"]{
 	position: absolute;
 	left: 45px;
 	bottom: 130px;
 }
-
 #lateral h2{
 	font-family: Verdana;
 	font-size: 48px;
@@ -60,51 +86,11 @@ img[src*="bolhas"]{
 	position: absolute;
 	transform: translate(-40px, 120px) rotate(-90deg);
 }
-
-#cardapio{
-	font-family: Verdana;
-	margin-left: 154px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #aac0ae;
-	background-color: Rgba(255,255,255,0.2);
-	width: 645px;
-	line-height: 2em;
-}
-
-#cardapio h3{
-	font-weight: bold;
-	color: #333;
-	font-size: 18px;
-}
-
-.descricao{
-	float: left;
-	text-align: left;
-}
-
-.preco{
-	display: block;
-	text-align: right;
-}
-
-#rodape{
-	margin: 0;
-	position:relative;
-	top: 46px;
-	right: 15px;
-	padding-bottom: 25px;
-	text-align: right;
-}
-
 #ticket{
-	position: fixed;
-	top: 295px;
-	left: -69px;
+   position: fixed;
+   top: 295px;
+   left: -69px;
 }
-
 #ticket:hover{
-	position: fixed;
-	top: 295px;
-	left: 0;
+   left: 0;
 }
