@@ -30,10 +30,11 @@ header{
 }
 header h1{
    margin-bottom: 0;
-   margin-top: 20px;
+   margin-top: 15px;
    font-size: 36px;
-   font-family: Ravie;
+   font-family: 'Ravie';
    color: #e90c0c;
+   font-weight: normal;
 }
 header h2{
    margin: 0;
@@ -49,6 +50,7 @@ header .destaque{
    font-weight: bold;
    color: #333;
    font-size: 18px;
+   margin-bottom: 0px
 }
 
 .descricao{
@@ -88,6 +90,8 @@ img[src*="bolhas"]{
 	font-weight: bold;
 	position: absolute;
 	transform: translate(-40px, 120px) rotate(-90deg);
+	left: 25px;
+	top: 150px;
 }
 #ticket{
    position: fixed;
